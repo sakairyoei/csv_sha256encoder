@@ -1,6 +1,6 @@
 import csv
 import hashlib
-read_filename = '/Users/sakairyoei/Desktop/samp.csv'
+read_filename = <FILE NAME>
 
 with open(read_filename, mode='r', encoding='utf8', newline='') as f:
     reader = csv.reader(f)
